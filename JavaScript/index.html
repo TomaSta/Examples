@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chess simulator</title>
+    <link rel="stylesheet"
+          href="chess.css"
+          type="text/css">
+    <script src="chess.js"></script>
+</head>
+<body>
+<div class="selector">
+    <div class="white" onclick="takeNewFigure('blackBishop', 'black')" id="blackBishop">&#9821;</div>
+    <div class="white" onclick="takeNewFigure('blackRook', 'black')" id="blackRook">&#9820;</div>
+    <div class="white" onclick="takeNewFigure('blackKnight','black')" id="blackKnight">&#9822;</div>
+
+    <div class="white" onclick="takeNewFigure('whiteBishop', 'white')" id="whiteBishop">&#9815;</div>
+    <div class="white" onclick="takeNewFigure('whiteRook', 'white')" id="whiteRook">&#9814;</div>
+    <div class="white" onclick="takeNewFigure('whiteKnight', 'white')" id="whiteKnight">&#9816;</div>
+</div>
+
+<div class="chessboard" id="chessboard">
+</div>
+</body>
+</html>
